@@ -11,7 +11,7 @@ cookies = cookielib.MozillaCookieJar()
 
 def login():
     url="http://my.jjwxc.net/login.php?action=login&referer="
-    postdata = urllib.urlencode({'loginname':'darkdancer0@gmail.com','loginpassword':'19880929a'})
+    postdata = urllib.urlencode({'loginname':'','loginpassword':''})
 
     handler = urllib2.HTTPCookieProcessor(cookies)
     opener= urllib2.build_opener(handler)
